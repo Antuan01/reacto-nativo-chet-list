@@ -5,6 +5,7 @@ const Home = ({ navigation }) => {
     return (
         <View style={styles.header}>
                 <Text> Testo Cabecera </Text>
+                
                 <Text> Testo La Madre </Text>
                 <Button
                 title="Go to Details"
