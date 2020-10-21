@@ -11,7 +11,8 @@ export default function App() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen name="Home" component={Home} />
+                <Stack.Screen name="Home" component={Home} 
+                options={{headerStyle: {flex: 1}}} />
                 <Stack.Screen name="Header" component={Header} />
             </Stack.Navigator>
         </NavigationContainer>
