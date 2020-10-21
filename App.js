@@ -12,7 +12,7 @@ export default function App() {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name="Home" component={Home} 
-                options={{headerStyle: {flex: 1}}} />
+                options={{headerStyle: {}}} />
                 <Stack.Screen name="Header" component={Header} />
             </Stack.Navigator>
         </NavigationContainer>
